@@ -1,0 +1,9 @@
+repos:
+  - repo: https://github.com/zricethezav/gitleaks
+    rev: v8.0.0  # Use the latest version
+    hooks:
+      - id: gitleaks
+        args: [--config-path=gitleaks.toml]  # Optional: specify custom config file
+        args: [--report-path=a.json]
+        pass_filenames: false  # Prevent file names from being passed to Gitleaks
+
