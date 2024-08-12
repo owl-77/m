@@ -1,0 +1,7 @@
+# test.txt
+
+# Example of sensitive data
+aws_access_key_id = ABCDEFGHIJKLMNOPQRST
+aws_secret_access_key = XYZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZZ
+Slack Webhook URL: https://hooks.slack.com/services/T123456/B123456/abcdef123456
+
